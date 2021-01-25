@@ -14,7 +14,7 @@ void multi_table(int num)
 	for(int flag =0; flag < 20; flag++)
 	{
 		int result = multiplier * num;
-		std::cout << multiplier << " * " << num << " = " << result << std::endl;
+		std::cout << multiplier << " x " << num << " = " << result << std::endl;
 		multiplier++;
 	}
 }
