@@ -21,12 +21,16 @@ void multi_table(int num)
 
 void non_divisible(int num)
 {
-	for(int numbers = 0; numbers < 30; numbers++)
+	int flag = 0;
+	int numbers = 1;
+	while(flag < 30)
 	{
 		if(numbers % num != 0)
 		{
 			std::cout << numbers << std::endl;
+			flag++;
 		}
+		numbers++;
 
 	}
 }
